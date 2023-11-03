@@ -2,8 +2,7 @@ body,html{
     background: rgb(172, 166, 154);
     color: rgb(0, 0, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  /*  width: 100vw;
-    height: 100vh;*/
+  /*  width: 100vw;    height: 100vh;*/
 }
 .container{
     display: grid;
@@ -12,7 +11,6 @@ body,html{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
-
 .header{
     grid-area: h;
 }
@@ -24,7 +22,6 @@ body,html{
 }
 .main{
     grid-area: m;
-
 }
 .formacao{
     grid-area: for;
@@ -37,7 +34,6 @@ p{
     margin-left: 10px;
     transition: 0.5s;
 }
-
 p:hover{
     background: grey;
     padding: 10px;
@@ -70,8 +66,7 @@ ul{
     text-align: left;
     margin-top: 2px;
     transition: 0.5s;
-    list-style: none;
-    
+    list-style: none;    
 }
 ul:hover{
     background: grey;
@@ -90,7 +85,6 @@ ul:hover{
     transition: 0.5s;
 }
 
-
 @media screen and (max-width:820px){
     .container{
         grid-template-areas: "n" "for" "m" "f";
@@ -99,12 +93,10 @@ ul:hover{
     .header{
         display: none;
     }
-
     .obj{
         display: none;
     }
 }
-
 @media screen and (max-width:480px){
     .obj{
         display: none;
@@ -114,8 +106,7 @@ ul:hover{
     }
     .formacao{
         display: none;
-    }
-    
+    }  
     .container{
         grid-template-areas: "n" "m" "f";
 

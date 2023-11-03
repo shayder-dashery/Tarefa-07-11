@@ -71,7 +71,6 @@ ul{
 ul:hover{
     background: grey;
     padding: 25px;
-    font-size: 15px;
     border-radius: 20px;
     border: 1px solid black;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 15);
